@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.txt_title);
         imageView = findViewById(R.id.image_main);
         textView.setText("Salbarov");
+        textView.setText("Salbarovd");
 
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText("Tynchtyk");
                 }else {
                     textView.setText("Salbarov");
+
+
+
                 }
             }
         });
